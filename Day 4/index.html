@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table & Forms</title>
+</head>
+<body>
+    <center>
+    <!-- table -->
+    <h1>Table</h1>
+    <table border="2" cellpadding="4">
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th colspan="2">edit</th>
+
+        <tr>
+            <td rowspan="2">Krupesh</td>
+            <td>krupesh@gmail.com</td>
+            <td>987654321</td>
+            <td> Update </td>
+            <td>Delete</td>
+        </tr>
+        <tr>
+            <td>info@krupesh.tech</td>
+            <td>4638292984</td>
+            <td> Update </td>
+            <td>Delete</td>
+        </tr>
+
+        <tr>
+            <td>Aditi</td>
+            <td>adit@gmail.com</td>
+            <td>345678933</td>
+            <td> Update </td>
+            <td>Delete</td>
+        </tr>
+    </table>
+
+    <!-- forms -->
+    <h1>Form</h1>
+    <form >
+            <label >Name: </label>
+            <input type="text" placeholder="enter your name"><br><br>
+            <label >Email: </label>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <label >Phone: </label>
+            <input type="number" placeholder="Enter your number" required><br><br>
+            <label>Upload Assignment:</label>
+            <input type="file" ><br><br>
+            <input type="submit" value="Submit Assigment">
+            <input type="reset" value="Reset Form">
+            
+    </form>
+</center>
+</body>
+</html>
